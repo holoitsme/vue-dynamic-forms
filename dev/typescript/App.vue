@@ -157,6 +157,7 @@ export default defineComponent({
         character: {
           label: 'Select one option',
           type: 'radio',
+          value: 'Mario',
           options: [
             {
               key: 'mario',
@@ -179,7 +180,7 @@ export default defineComponent({
         } as RadioInput,
         customField1: {
           type: 'custom-field',
-          label: 'Custom Field',
+          value: 2,
         } as CustomInput,
         color: {
           label: 'Color',

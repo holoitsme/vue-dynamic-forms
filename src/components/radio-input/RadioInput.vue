@@ -21,6 +21,7 @@ export default defineComponent({
           disabled: option.disabled,
           class: ['radio-control'],
           value: option.value,
+          checked: option.value === props.control.value,
           onFocus,
           onBlur,
           onChange,
